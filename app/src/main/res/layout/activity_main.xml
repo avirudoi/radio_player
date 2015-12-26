@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MainLinearLayout"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        style="@style/MainFrameLayout">
+
+    <LinearLayout
+        style="@style/MainSecLinearLayout">
+
+        <ImageView
+            android:id="@+id/ivCoverImage"
+            style="@style/MainImageView"/>
+
+        <TextView
+            android:id="@+id/tvTrackName"
+            style="@style/TextViewTrackName"/>
+
+        <TextView
+            android:id="@+id/tvSingerName"
+            style="@style/TextViewSingerName"/>
+
+    </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/progressBar"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        style="@style/MainHorzLayout">
+
+        <ImageButton
+            style="@style/MainButton"
+            android:src="@mipmap/ic_skip_back"
+            android:id="@+id/bSkipBackwards" />
+
+        <ImageButton
+            style="@style/MainButton"
+            android:src="@mipmap/ic_pause"
+            android:id="@+id/bPaused" />
+
+        <ImageButton
+            style="@style/MainButton"
+            android:src="@mipmap/ic_play"
+            android:id="@+id/bPlay" />
+
+        <ImageButton
+            style="@style/MainButton"
+            android:src="@mipmap/ic_skip_forward"
+            android:id="@+id/bSkipforward" />
+
+    </LinearLayout>
+
+</LinearLayout>
